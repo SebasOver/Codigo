@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Parcial 2</title>
+</head>
+<body>
+    <header>
+    <div class="titulo">
+        <h1>Calculadora</h1>
+    </div>
+    </header>
+    <div class="content">
+    <div class="section1">
+        <h2 id="titulo2">Calculadora de areas y perimetros</h2>
+        <p id="texto">
+        El área y el perímetro son dos de las medidas más importantes de
+        figuras geométricas. El perímetro representa a la suma total de las
+        longitudes de los lados de una figura geométrica. Por otra parte, el
+        área representa a la región cubierta por la figura. El perímetro es
+        una medida unidimensional y el área es una medida bidimensional. A
+        continuacion veremos algunos ejemplos del area y perimetro de
+        diferentes figuras
+        </p>
+        <div class="botones">
+            <a href="#" class="boton1" id="btnabrir">Cuadrado</a>
+            <div class="fondo-transparente" style="display: none;">
+                <div class="modal">
+                    <div class="modal-cerrar">
+                        <span>X</span>
+                    </div>
+                    <div class="modal-titulo">Area y perimetro del cuadrado</div>
+                    <div class="modal-content1">
+                        <img src="Cuadrado.png" class="cuadrado" alt="">
+                    </div>
+                    <div class="modal-botones">
+                        <form action="" id="formulario-cuadrado">
+                            <label for="lado-1" class="lado">Escriba el lado del cuadrado</label>
+                            <input type="number" id="lado-cuadrado">
+                            <button id="calcular-1">Calcular</button>
+                        </form>
+                        <p id="resultado-cuadrado"></p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="boton2" id="btnabrir2">Paralelogramo</a>
+            <div class="fondo-transparente-2" style="display: none;">
+                <div class="modal-2">
+                    <div class="modal-cerrar-2">
+                        <span>X</span>
+                    </div>
+                    <div class="modal-titulo2">Area y perimetro del paralelogramo</div>
+                    <div class="modal-content1">
+                        <img src="Paralelogramo.png" class="paralelogramo" alt="">
+                    </div>
+                    <div class="modal-botones-2">
+                        <form action="" id="formulario-paralelogramo">
+                            <label for="lado-1" class="lado2">Escriba los lados del paralelogramo</label>
+                            <input type="number" id="lado-1">
+                            <input type="number" id="lado-2">
+                            <button2 id="calcular-2">Calcular</button2>
+                        </form>
+                        <p id="resultado-paralelogramo"></p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="boton3" id="btnabrir3">Triangulo rectangulo</a>
+            <div class="fondo-transparente-3" style="display: none;">
+                <div class="modal-3">
+                    <div class="modal-cerrar-3">
+                        <span>X</span>
+                    </div>
+                    <div class="modal-titulo3">Area y perimetro del triangulo rectangulo</div>
+                    <div class="modal-content1">
+                        <img src="Triangulo-rectangulo.png" class="triangulo-rectangulo" alt="">
+                    </div>
+                    <div class="modal-botones">
+                        <form action="" id="formulario-paralelogramo">
+                            <label for="lado-1" class="lado3">Escriba los lados y la hipotenusa del triangulo rectangulo</label>
+                            <input type="number" id="lado-3">
+                            <input type="number" id="lado-4">
+                            <input type="number" id="lado-5">
+                            <button3 id="calcular-3">Calcular</button3>
+                        </form>
+                        <p id="resultado-triangulo-rectangulo"></p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="boton4" id="btnabrir4">Poligono regular</a>
+            <div class="fondo-transparente-4" style="display: none;">
+                <div class="modal-4">
+                    <div class="modal-cerrar-4">
+                        <span>X</span>
+                    </div>
+                    <div class="modal-titulo-2">Area y perimetro del poligono regular</div>
+                    <div class="modal-content1">
+                        <img src="Poligono-regular.png" class="triangulo-rectangulo" alt="">
+                    </div>
+                    <div class="modal-botones">
+                        <form action="" id="formulario-paralelogramo">
+                            <label for="lado-1" class="lado3">Escriba el numero y medida de los datos con la apotema</label>
+                            <input type="number" id="lado-6">
+                            <input type="number" id="lado-7">
+                            <input type="number" id="lado-8">
+                            <button4 id="calcular-poligono">Calcular</button4>
+                        </form>
+                        <p id="resultado-poligono-regular"></p>
+                    </div>
+                </div>               
+            </div>
+            <a href="#" class="boton5" id="btnabrir5">Edad</a>
+            <div class="fondo-transparente-5" style="display: none;">
+                <div class="modal-5">
+                    <div class="modal-cerrar-5">
+                        <span>X</span>
+                    </div>
+                    <div class="modal-titulo">Digite su edad</div>
+                    <div class="modal-content1">
+                        <img src="Edad.png" class="edad2" alt="">
+                    </div>
+                    <div class="modal-botones">
+                        <form action="" id="formulario-edad">
+                            <label for="lado-1" class="edad">Escriba su edad</label>
+                            <input type="number" id="edad">
+                            <button5 id="calcular-edad">Calcular</button5>
+                        </form>
+                        <p id="resultado-edad"></p>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+<script src="calculos.js"></script>
+</body>
+</html>
